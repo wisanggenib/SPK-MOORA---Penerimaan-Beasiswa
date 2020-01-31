@@ -1,9 +1,9 @@
 <ul class="nav nav-tabs" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+      <a class="nav-link active" data-toggle="tab" href="#home">Data Diri</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+      <a class="nav-link" data-toggle="tab" href="#menu1">Nilai</a>
     </li>
   </ul>
 
@@ -156,7 +156,7 @@ $row = mysqli_fetch_assoc($result);
                 if($row['ekonomi']=='phk'){
                     echo "<input type='radio' class='form-check-input' id='radio1' name='ekonomi' value='phk' checked> phk";
                 }else{
-                    echo "<input type='radio' class='form-check-input' id='radio1' name='ekonomi' value='tidak'> phk";
+                    echo "<input type='radio' class='form-check-input' id='radio1' name='ekonomi' value='phk'> phk";
                 }
               ?>
               </label>

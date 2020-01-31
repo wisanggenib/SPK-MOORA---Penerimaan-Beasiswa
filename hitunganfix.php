@@ -142,9 +142,9 @@ echo "<br> HASIL 3 TERTINGGI <br>==================<br>";
 $rank = 1;
 foreach ($optimasi as $id_optimasi => $value) {
       echo $alternatif[$id_optimasi][0].$id_optimasi."<br>".$optimasi[$id_optimasi];
-      $sqlInput = "INSERT INTO tabel_hasil (id_siswa, nilai)
-      VALUES ('$id_optimasi', '$optimasi[$id_optimasi]')";
-      $db->query($sqlInput);
+      // $sqlInput = "INSERT INTO tabel_hasil (id_siswa, nilai)
+      // VALUES ('$id_optimasi', '$optimasi[$id_optimasi]')";
+      // $db->query($sqlInput);
 
       if ($rank <= 5) {
          echo "<br>MASUK";
@@ -155,6 +155,6 @@ foreach ($optimasi as $id_optimasi => $value) {
       $rank++;
 }
 
-
+echo "<script>alert('data berhasil di hitung');window.location = 'index.php?module=list_hasil';</script>";
 
 ?>

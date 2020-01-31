@@ -41,11 +41,11 @@ if (!empty($penghasilan)) {
 	echo "No";
 }
 
- echo $nKPS."<br>";
- echo $nPKH."<br>";
- echo $nStatus."<br>";
- echo $nEkonomi."<br>";
- echo $penghasilan."<br>";
+ // echo $nKPS."<br>";
+ // echo $nPKH."<br>";
+ // echo $nStatus."<br>";
+ // echo $nEkonomi."<br>";
+ // echo $penghasilan."<br>";
 
 
 	//mengambil id siswa terkahir yang baru saja dimasukan

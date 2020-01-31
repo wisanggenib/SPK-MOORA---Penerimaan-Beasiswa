@@ -23,7 +23,7 @@
                     <td><?=$row['type']?></td>
                     <td><?=$row['bobot']?></td>
                     <td class="hidden-phone">
-                        <a href="index.php?module=update_kriteria&id_kriteria=<?=$row['id_kriteria']?>"><button type="button" class="btn btn-warning"><i class="fa fa-cog"></i> Update</button></a>
+                        <a href="index.php?module=update_kriteria&id_kriteria=<?=$row['id_kriteria']?>"><button type="button" class="btn btn-warning"><i class="fa fa-cog"></i>Ubah</button></a>
                     </td>
                   </tr>
           <?php

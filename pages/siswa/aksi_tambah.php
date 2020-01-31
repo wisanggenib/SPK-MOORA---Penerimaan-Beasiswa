@@ -55,7 +55,7 @@ if ($koneksi->query($sql) === TRUE) {
               	//insert data to table nilai.
               	$sKPS = "INSERT INTO tabel_nilai (id_kriteria, id_siswa, nilai)
 						VALUES ('1', '$id_siswa', '$nKPS')";
-				$koneksi->query($sKPH);
+				$koneksi->query($sKPS);
 
 				$sKPH = "INSERT INTO tabel_nilai (id_kriteria, id_siswa, nilai)
 						VALUES ('2', '$id_siswa', '$nPKH')";

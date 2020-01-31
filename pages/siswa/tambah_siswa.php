@@ -1,9 +1,9 @@
 <ul class="nav nav-tabs" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+      <a class="nav-link active" data-toggle="tab" href="#home">Data Diri</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+      <a class="nav-link" data-toggle="tab" href="#menu1">Nilai</a>
     </li>
   </ul>
 <form class="form-horizontal style-form" method="POST" action="pages/siswa/aksi_tambah.php">

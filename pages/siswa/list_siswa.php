@@ -1,4 +1,4 @@
-        <h3><i class="fa fa-angle-right"></i> List Kriteria</h3>
+        <h3><i class="fa fa-angle-right"></i> List Siswa</h3>
         <div class="row mb">
           <!-- page start-->
           <div class="content-panel">
@@ -38,6 +38,7 @@
                     <td><?=$row['ekonomi']?></td>
                     <td class="hidden-phone">
                         <a href="index.php?module=update_siswa&id_siswa=<?=$row['id_siswa']?>"><button type="button" class="btn btn-warning"><i class="fa fa-cog"></i> Update</button></a>
+                        <a href="index.php?module=hapus_siswa&id_siswa=<?=$row['id_siswa']?>"><button type="button" class="btn btn-danger"><i class="fa fa-trash"></i> Hapus</button></a>
                     </td>
                   </tr>
           <?php
